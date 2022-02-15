@@ -17,3 +17,9 @@ def division():
     num1 = float(input('Introduce el primer valor: '))
     num2 = float(input('Introduce el segundo valor: '))
     print(f'La division es: {num1/num2}')
+
+def multiplicacion():
+    print('Multiplicar')
+    num1 = float(input('Introduce el primer valor: '))
+    num2 = float(input('Introduce el segundo valor: '))
+    print(f'La multiplicacion es: {num1*num2}')

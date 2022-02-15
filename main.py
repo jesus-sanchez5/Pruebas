@@ -2,7 +2,7 @@ import Calculos
 
 
 if __name__ == '__main__':
-    print('1 - Sumar\n2 - Restarr\n3 - Division')
+    print('1 - Sumar\n2 - Restar\n3 - Division\n4 - Multiplicacion')
     opcion= int(input('Elige una opcion: '))
     if opcion==1:
         Calculos.suma()
@@ -11,7 +11,7 @@ if __name__ == '__main__':
     if opcion==3:
         Calculos.division()
     if opcion==4:
-        Calculos.division()
+        Calculos.multiplicacion()
 
 
 
