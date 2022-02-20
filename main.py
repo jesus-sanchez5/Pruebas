@@ -14,6 +14,8 @@ if __name__ == '__main__':
             Calculos.division()
         if opcion==4:
             Calculos.multiplicacion()
+        if opcion==5:
+            Calculos.elevado()
         if opcion==0:
             i=1
 
